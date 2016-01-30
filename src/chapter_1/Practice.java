@@ -6,7 +6,6 @@ package chapter_1;
 
 import java.lang.*;
 import java.util.*;
-import java.math.*;
 
 public class Practice {
     // 打印一个boolean矩阵
@@ -104,8 +103,37 @@ public class Practice {
             return temp;
     }
 
+    // 练习1.1.30：创建一个布尔数组，若i和j互质，则a[i][j]为true，否则为false —— 使用辗转相除法
+    public static Boolean[][] judge_coprime(int M, int N) {
+        Boolean[][] a = new Boolean[M][N];
+        for (int i = 0 ; i < M ; ++i) {
+            for (int j = 0 ; j < N ; ++j) {
+                if (i == 1 || j == 1)
+                    a[i][j] = true;
+                else if (i == 0 || j == 0)
+                    a[i][j] = false;
+                else {
+                    // 使用辗转相除法
+                    int large = i >= j ? i : j;
+                    int small = i < j ? i : j;
+                    int temp;
+                    while (small > 1) {
+                        temp = large % small;
+                        large = small;
+                        small = temp;
+                    }
+                    if (small == 1)
+                        a[i][j] = true;
+                    else
+                        a[i][j] = false;
+                }
+            }
+        }
+        return a;
+    }
+
     public static void main(String[] args) {
-        int practice_index = 6;
+        int practice_index = 7;
         int M = 10, N = 10;     // M和N不为0
         Boolean[][] a = new Boolean[M][N];
         long seed = System.currentTimeMillis();
@@ -144,6 +172,9 @@ public class Practice {
             int c[] = delete_same(b);
             System.out.println();
             print_array(c);
+        } else if (practice_index == 7) {       // 执行练习1.1.30
+            Boolean[][] b = judge_coprime(M, N);
+            print_boolean_matrix(b, M, N);
         }
     }
 }
