@@ -15,7 +15,7 @@ public class Test {
             a[i] = random.nextInt(n);
         BaseSort.show(a);
         // SelectSort.sort(a);
-        InsertSort.sort(a);
+        InsertSort.sort_advanced(a);
         assert BaseSort.isSorted(a);
         BaseSort.show(a);
     }
