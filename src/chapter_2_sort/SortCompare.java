@@ -9,6 +9,7 @@ public class SortCompare {
         if (alg.equals("InsertSort"))   InsertSort.sort(a);
         if (alg.equals("InsertSort_Advanced"))  InsertSort.sort_advanced(a);
         if (alg.equals("SelectSort"))   SelectSort.sort(a);
+        if (alg.equals("ShellSort"))   ShellSort.sort(a);
         return timer.elapsedTime();
     }
 
@@ -24,7 +25,7 @@ public class SortCompare {
     }
 
     public static void main(String[] args) {
-        String[] temp = {"InsertSort", "InsertSort_Advanced"};
+        String[] temp = {"InsertSort", "ShellSort"};
         String alg0 = temp[0];
         String alg1 = temp[1];
         int N = 1000;      // 数组长度为N
