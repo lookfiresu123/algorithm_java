@@ -14,9 +14,11 @@ public class Test {
         for (int i = 0 ; i < n ; ++i)
             a[i] = random.nextInt(n);
         BaseSort.show(a);
-        SelectSort.sort(a);
+        // SelectSort.sort(a);
         // InsertSort.sort_advanced(a);
         // ShellSort.sort(a);
+        // MergeSort.sort(a);
+        MergeBUSort.sort(a);
         assert BaseSort.isSorted(a);
         BaseSort.show(a);
     }
