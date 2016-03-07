@@ -18,7 +18,8 @@ public class Test {
         // InsertSort.sort_advanced(a);
         // ShellSort.sort(a);
         // MergeSort.sort(a);
-        MergeBUSort.sort(a);
+        // MergeBUSort.sort(a);
+        QuickSort.sort(a);
         assert BaseSort.isSorted(a);
         BaseSort.show(a);
     }
