@@ -32,6 +32,8 @@ public class MaxPQ<Key extends Comparable<Key>> {
         }
     }
 
+    // public MaxPQ(){};
+
     public MaxPQ(int maxN) { pq = (Key[]) new Comparable[maxN+1]; }
 
     public boolean isEmpty() { return N == 0; }

@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9858d648-e041-4dff-a166-65ae38701180" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter_2_sort/MaxPQ.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter_2_sort/QuickSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/algorithm_java/chapter_2_sort/SortCompare.class" afterPath="$PROJECT_DIR$/out/production/algorithm_java/chapter_2_sort/SortCompare.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/algorithm_java/chapter_2_sort/Test.class" afterPath="$PROJECT_DIR$/out/production/algorithm_java/chapter_2_sort/Test.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter_2_sort/HeapSort.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter_2_sort/SortCompare.java" afterPath="$PROJECT_DIR$/src/chapter_2_sort/SortCompare.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter_2_sort/MaxPQ.java" afterPath="$PROJECT_DIR$/src/chapter_2_sort/MaxPQ.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter_2_sort/Test.java" afterPath="$PROJECT_DIR$/src/chapter_2_sort/Test.java" />
     </list>
     <ignored path="algorithm_java.iws" />
@@ -39,21 +36,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chapter_2_sort/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.3592881">
+              <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaxPQ.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MaxPQ.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter_2_sort/MaxPQ.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41935483">
-              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HeapSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter_2_sort/HeapSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -93,11 +100,11 @@
         <option value="$PROJECT_DIR$/src/chapter_2_sort/InsertSort.java" />
         <option value="$PROJECT_DIR$/src/chapter_2_sort/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/chapter_2_sort/MergeBUSort.java" />
-        <option value="$PROJECT_DIR$/src/chapter_2_sort/Test.java" />
         <option value="$PROJECT_DIR$/src/chapter_2_sort/SortCompare.java" />
         <option value="$PROJECT_DIR$/src/chapter_2_sort/QuickSort.java" />
-        <option value="$PROJECT_DIR$/src/chapter_2_sort/HeapSort.java" />
         <option value="$PROJECT_DIR$/src/chapter_2_sort/MaxPQ.java" />
+        <option value="$PROJECT_DIR$/src/chapter_2_sort/Test.java" />
+        <option value="$PROJECT_DIR$/src/chapter_2_sort/HeapSort.java" />
       </list>
     </option>
   </component>
@@ -112,9 +119,9 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="55" />
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="1625" />
-    <option name="height" value="1026" />
+    <option name="height" value="1054" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -141,7 +148,36 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithm_java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithm_java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithm_java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithm_java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chapter_2_sort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -194,35 +230,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algorithm_java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algorithm_java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algorithm_java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algorithm_java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapter_2_sort" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,7 +241,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
-  <component name="RunManager" selected="Application.SortCompare">
+  <component name="RunManager" selected="Application.SortTest">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -724,6 +731,7 @@
       <workItem from="1455451225995" duration="2355000" />
       <workItem from="1456225678714" duration="5678000" />
       <workItem from="1457321066760" duration="6756000" />
+      <workItem from="1458536421121" duration="3931000" />
     </task>
     <task id="LOCAL-00001" summary="add BinarySearch algorithm into chapter_1&#10;">
       <created>1453984364043</created>
@@ -735,10 +743,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57993000" />
+    <option name="totallyTimeSpent" value="61924000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="24" width="1625" height="1026" extended-state="6" />
+    <frame x="55" y="-4" width="1625" height="1054" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -760,7 +768,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39876354" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39827773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -788,7 +796,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -797,14 +805,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/chapter_2_sort/InsertSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter_2_sort/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1174,18 +1174,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter_2_sort/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/chapter_2_sort/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter_2_sort/MaxPQ.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41935483">
-          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter_2_sort/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3592881">
+          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
           <folding />
         </state>
       </provider>
