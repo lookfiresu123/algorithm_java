@@ -37,6 +37,20 @@ mergesort.cpp | 归并排序的递归实现
 quicksort.cpp | 快速排序
 select.cpp | 选择排序
 
+### search
+
+文件 | 功能
+--- | ---
+peak_finding_1D.c | 在一维数组中找极大值点
+peak_finding_2D.c | 在二维数组中找极大值点
+
+### graph
+
+文件 | 功能
+--- | ---
+Dijkstra | Dijkstra算法
+
+
 ### string
   
 文件 | 功能
