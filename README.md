@@ -57,3 +57,5 @@ Dijkstra | Dijkstra算法
 --- | ---
 LCSubsequence.cpp | 最长公共子序列
 LCSubstring.cpp | 最长公共子串
+LISubsequence_sort_LCS.cpp | 用排序和LCS方法计算最长递增子序列
+LISubsequence_DP.cpp | 用动态规划方法计算最长递增子序列
