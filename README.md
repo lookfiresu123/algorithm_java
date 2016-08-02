@@ -59,3 +59,10 @@ LCSubsequence.cpp | 最长公共子序列
 LCSubstring.cpp | 最长公共子串
 LISubsequence_sort_LCS.cpp | 用排序和LCS方法计算最长递增子序列
 LISubsequence_DP.cpp | 用动态规划方法计算最长递增子序列
+
+### tree
+文件 | 功能
+--- | ---
+preorder_non-traversal.cpp | 先序遍历的非递归实现
+inorder_non-traversal.cpp | 中序遍历的非递归实现
+postorder_non-traversal.cpp | 后序遍历的非递归实现
