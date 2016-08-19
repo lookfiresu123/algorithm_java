@@ -23,6 +23,7 @@ private:
     BaseGraph source_graph;                 // 原图
 };
 
+// 图的路径查找类 —— 使用深度优先遍历
 class BreadthFirstPaths : public BreadthFirstSearch {
 public:
     BreadthFirstPaths(BaseGraph &graph, int v); // 利用广度优先遍历得到结点v到每个结点的路径
