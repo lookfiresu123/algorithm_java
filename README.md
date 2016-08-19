@@ -49,6 +49,8 @@ peak_finding_2D.c | 在二维数组中找极大值点
 文件 | 功能
 --- | ---
 Dijkstra | Dijkstra算法
+BaseGraph | 基本图类
+DepthFirstPaths | 使用图的深度优先遍历来完成单源路径查找
 
 
 ### string

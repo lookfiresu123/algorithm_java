@@ -30,20 +30,4 @@ private:
     vector<vector<int>> edges_len;  // 边长度集合，其中每个索引为某个顶点，edges_len[i][j]等价于E(i,j)的长度
 };
 
-class DepthFirstSearch {
-public:
-    DepthFirstSearch(BaseGraph &graph);     // 图的深度优先搜索遍历
-    void dfs(int start);
-    bool isMarked(int v);
-    int getStepCount();
-    void clear();
-    bool isLinkedAll();
-    bool isEmpty();
-private:
-    vector<bool> marked;
-    int step_count;                         // 深度优先遍历所需的步数
-    BaseGraph source_graph;                 // 原图
-};
-
-
 #endif
