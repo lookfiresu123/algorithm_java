@@ -53,7 +53,7 @@ BaseGraph &DepthFirstSearch::retGraph() {
     return source_graph;
 }
 
-// 图的路径查找类
+// 图的路径查找类 —— 使用深度优先遍历
 DepthFirstPaths::DepthFirstPaths(BaseGraph &graph, int v) :
     DepthFirstSearch(graph), prev(graph.getPointNum(), -1), start(v) {}
 
@@ -71,6 +71,7 @@ bool DepthFirstPaths::hasPathTo(int v) {
     return isMarked(v);
 }
 
+// 先调用bfs(start)，再调用pathTo(v)
 vector<int> DepthFirstPaths::pathTo(int v) {
     vector<int> path;
     if (!hasPathTo(v))
