@@ -65,6 +65,7 @@ BaseGraph &BreadthFirstSearch::retGraph() {
 BreadthFirstPaths::BreadthFirstPaths(BaseGraph &graph, int v) :
     BreadthFirstSearch(graph), prev(graph.getPointNum(), -1), start(v) {}
 
+// @v: the private data member - start
 void BreadthFirstPaths::bfs(int v) {
     queue<int> q;
     setMarked(v);
@@ -99,6 +100,7 @@ vector<int> BreadthFirstPaths::pathTo(int v) {
 }
 
 vector<vector<int>> BreadthFirstPaths::pathToAll() {
+    bfs(start);
     vector<vector<int>> paths;
     for (int i = 0 ; i < retGraph().getPointNum() ; ++i)
         paths.push_back(pathTo(i));

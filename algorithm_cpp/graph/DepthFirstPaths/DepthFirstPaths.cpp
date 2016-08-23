@@ -57,6 +57,7 @@ BaseGraph &DepthFirstSearch::retGraph() {
 DepthFirstPaths::DepthFirstPaths(BaseGraph &graph, int v) :
     DepthFirstSearch(graph), prev(graph.getPointNum(), -1), start(v) {}
 
+// @v: the private data member - start
 void DepthFirstPaths::dfs(int v) {
     setMarked(v);
     for (int w : retGraph().adj(v)) {
@@ -71,7 +72,7 @@ bool DepthFirstPaths::hasPathTo(int v) {
     return isMarked(v);
 }
 
-// 先调用bfs(start)，再调用pathTo(v)
+// 先调用dfs(start)，再调用pathTo(v)
 vector<int> DepthFirstPaths::pathTo(int v) {
     vector<int> path;
     if (!hasPathTo(v))
@@ -84,6 +85,7 @@ vector<int> DepthFirstPaths::pathTo(int v) {
 }
 
 vector<vector<int>> DepthFirstPaths::pathToAll() {
+    dfs(start);
     vector<vector<int>> paths;
     for (int i = 0 ; i < retGraph().getPointNum() ; ++i)
         paths.push_back(pathTo(i));

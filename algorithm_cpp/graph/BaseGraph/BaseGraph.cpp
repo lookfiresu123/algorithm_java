@@ -61,11 +61,13 @@ int BaseGraph::numberOfSelfLoops() {
 
 void BaseGraph::print() {
     for (int i = 0 ; i < point_num ; ++i) {
-        string s = to_string(i);
+        string s = to_string(i) + " -> [";
         for (int j = 0 ; j < point_num ; ++j) {
             if (edges[i][j] == 1)
-                s += (" -> " + to_string(j));
+                s += (to_string(j) + ", ");
         }
+        s = s.substr(0, s.length()-2);
+        s += "]";
         cout << s << endl;
     }
 }
